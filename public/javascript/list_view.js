@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 function action() {
   var item = $('#text_area').val();
-  var link = 'http://127.0.0.1:3000/gallery/'+item+'/'+pagecount;
+  var link = 'http://127.0.0.1:8080/gallery/'+item+'/'+pagecount;
   if (item != '') {
    var searchResultHTML = '';
   
